@@ -1,0 +1,86 @@
+
+.zx{
+	    box-shadow: 0 3px 3px #ebebeb;
+	        width: 100%;
+	        background: #fff;
+	            display: block;
+	            overflow: hidden;
+
+}
+
+.zx ul{
+    display: block;
+    overflow: hidden;
+}
+
+.zx ul li{
+	    display: block;
+    padding: 10px 12px;
+    border-bottom: 1px solid #f5f5f5;
+    overflow: hidden;
+}
+.zx ul li>a {
+    display: inline-block;
+    float: left;
+    width: 88px;
+    height: 58px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.zx ul li a img{
+	    height: 100%;
+	    width: 88px;
+}
+.zx ul li>dl {
+    display: block;
+    margin-left: 98px;
+}
+.zx ul  li>dl dt {
+    height: 40px;
+    overflow: hidden;
+}
+.zx ul  li>dl dd {
+    display: table-cell;
+    font-size: 10px;
+    color: #999;
+    height: 18px;
+    vertical-align: bottom;
+}
+.zx  ul li>dl dt a {
+    display: inline-block;
+    font: 16px Helvetica Regular,'方正中等线', Microsoft YaHei,sans-serif,'宋体',Tahoma;
+    color: #333;
+    line-height: 20px;
+}
+
+.lookmore {
+    margin: 0.5rem 0rem 0rem;
+    padding: 5px 1rem;
+}
+.lookmore a {
+    display: block;
+    background: -webkit-gradient(linear,0% 0%, 100% 0%, from(#41aff7), to(#41aff7));
+    line-height: 2.6rem;
+    height: 2.6rem;
+    text-align: center;
+    color: #fff;
+    border-radius: .4rem;
+}
+.lookmore span {
+    display: inline-block;
+    position: relative;
+}
+.lookmore span:after {
+    position: absolute;
+    display: block;
+    content: "";
+    right: -.7rem;
+    top: .6rem;
+    margin: auto;
+    width: .4rem;
+    height: .9rem;
+    background: url(../images/arrow.png) no-repeat;
+    background-size: 100% 100%;
+    top: .85rem;
+}

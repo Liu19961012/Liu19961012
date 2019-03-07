@@ -1,0 +1,82 @@
+
+.main .list{position: relative; height: 56px; overflow: hidden;}
+.main .list .list-t{overflow: hidden; zoom: 1; position: relative; padding: 8px 4% 8px; background: #fff;}
+.list-t .img img{width: 40px; height: 40px; border-radius: 8px; float: left; margin-right: 10px;}
+.list-t .ys{width: 58%; overflow: hidden; color: #777;}
+.list-t .ys a{display: block; height: 22px; line-height: 22px; font-size: 15px; font-weight: 700; color: #dd2a01; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.list-t .ys p span{display: block; font-size: 12px; line-height: 22px; height: 18px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: #929292;}
+.list-t .ys p span em{padding: 0 7px; color: #ddd;}
+.list-t .xz{width: 62px; height: 30px; line-height: 30px; text-align: center; color: #fff; background: #41aff7; position: absolute; right: 4%; top: 13px; border-radius: 3px; margin: 0; font-size: 12px; outline: none; border: none; overflow: hidden;}
+.line{width: 100%; height: 10px; background: #f0f0f0; position: relative;}
+
+
+.content{background-color: #fff;  overflow: hidden;}
+.content .content-top{border-bottom: 1px solid #ddd; text-align: center;    margin: 0 4%;}
+.content .content-top h1{position: relative; color: #333; font-size: 17px; font-weight: bold; padding: 12px 0 6px 0; text-align: justify; word-break: break-all; line-height: 30px;}
+.content .content-top p{font-size: 12px; color: #666; margin-bottom: 13px; line-height: 15px; height: 15px; overflow: hidden;}
+.content .content-top p .time{margin-right: 15px; float: left; font-size: 14px;}
+.content .content-top p .ly{float: left; font-size: 14px;}
+.content .content-center{line-height: 24px; font-size: 14px;overflow: hidden;    margin: 0 4%;}
+.content .content-center img{ max-width:95%; height:auto; margin:0 auto; display:block;}
+
+.content .page{padding: 5px 0; border-top: 1px solid #ddd;    margin: 0 4%;}
+.content .page .page-top{line-height: 26px; font-size: 14px; position: relative; color: #41aff7;}
+.content .page .page-top span{position: absolute; left: 0; top: 0px;}
+.content .page .page-top a{color: #41aff7; display: inline-block; padding-left: 55px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 80%;}
+.content .lode{width: 100%; height: auto; line-height: 20px; padding: 10px 0; background: #fff; font-size: 14px; color: #999; overflow: hidden; box-sizing: border-box; position: relative; zoom: 1;}
+.content .lode a{width: 70%; height: 30px; line-height: 30px; display: block; overflow: hidden; font-weight: normal; font-size: 14px; background: #f5f5f5; text-align: center; border-radius: 4px; margin: auto;}
+
+
+.game{width: 100%; height: auto;  box-sizing: border-box; overflow: hidden; background: #fff;     padding: 10px 0;}
+.game .game-s{width: 100%; height: auto; font-size: 18px; font-weight: bold; color: #41aff7; text-indent: 14px; border-bottom: 2px solid #eee; box-sizing: border-box; display: block; overflow: hidden;}
+.game .game-ul{width: 100%; height: auto; overflow: hidden; box-sizing: border-box;}
+.game .game-ul li{width: 100%; height: auto; display: -webkit-box; overflow: hidden; background: #fff; padding: 0 10px; box-sizing: border-box; position: relative; zoom: 1;}
+.game .game-ul li .img{width: 100%; height: auto; display: -webkit-box; overflow: hidden; padding: 10px 40px 10px 0; box-sizing: border-box; border-bottom: 1px solid #eee;}
+.game .game-ul li .img img{width: 60px; height: 60px; border-radius: 15px; margin-right: 10px; display: block; overflow: hidden;}
+.game .game-ul li .img .mt{width: auto; height: auto; overflow: hidden; -webkit-box-flex: 1; box-sizing: border-box;}
+.game .game-ul li .img .mt .mt-s{width: 100%; height: 20px; line-height: 20px; font-size: 16px; color: #333; text-indent: 0; display: block; overflow: hidden;}
+.game .game-ul li .img .mt .b1{width: 100%; height: 16px; line-height: 16px; font-size: 12px; font-weight: normal; color: #777; margin-top: 4px; display: block; overflow: hidden; box-sizing: border-box;}
+.game .game-ul li .img .mt .b1 span{float: left; margin: 0; display: inline; overflow: hidden;}
+.game .game-ul li .img .mt .b1 .span2{border-left: 1px #ccc solid; padding: 0 8px; margin: 0 5px 0 8px;}
+.game .game-ul li .img .mt .b2{width: 100%; height: 16px; line-height: 16px; font-size: 12px; font-weight: normal; color: #777; margin-top: 4px; display: block; overflow: hidden;}
+.game  .game-ul li .xz{width: 60px; height: 30px; line-height: 30px; text-align: center; color: #fff; background: #41aff7; position: absolute; right: 5px; top: 23px; border-radius: 3px;}
+
+.game .game-bo li{height: 40px; line-height: 40px; overflow: hidden; margin: 0 8px; position: relative; border-top: 0; border-bottom: 1px dashed #e8e8e8;}
+.game .game-bo li em{display: inline-block; width: 4px; height: 4px; background: #999; border-radius: 50px; overflow: hidden; position: absolute; top: 17px; left: 5px;}
+.game .game-bo li a{display: block; overflow: hidden; height: 40px; white-space: nowrap; text-overflow: ellipsis; padding: 0 10px 0 15px; color: #444;}
+
+
+.commentTit{width:100%;height:50px;overflow:hidden;font-size:20px;font-weight:bold;line-height:50px;}
+.commentTit p{float:left;}
+.commentTit p span{float:left;height:30px; min-width:25px; border-radius:6px;background:#41aff7;line-height:30px;color:#fff;text-align:center;font-weight:normal;font-size:16px;margin:10px 0;}
+.commentTit p i{float:left;width:0;height:0;border-left:6px solid #41aff7;border-top:6px solid transparent;border-bottom:6px solid transparent; margin:20px 8px 0 0;}
+.commentTit a{float:right;}
+.comment input{width:100%;height:42px; box-sizing:border-box;border:1px solid #41aff7;padding:0 10px;line-height:42px;border-radius:6px;}
+.comment ul{width:100%;height:auto; overflow:hidden;margin:10px 0;}
+.comment ul li{width:100%;height:auto; overflow:hidden;border-bottom:1px solid #ccc;padding:6px 0;}
+.comment ul li .contTitle{width:100%;height:40px; line-height:40px; overflow:hidden;}
+.comment ul li .contTitle span{float:left;color:#5fbf5e;}
+.comment ul li .contTitle time{float:right;color:#999;}
+.comment ul li .contC{width:100%;height:auto; overflow:hidden;}
+.comment{background-color:#fff;width:100%; height:auto;overflow:hidden; box-sizing:border-box;padding:0 10px;}
+.comment .plbutton{width:100%;height: auto;display:-webkit-box;overflow:hidden;margin:0;padding:5px 0 0px;box-sizing:border-box;float: left;}
+.comment .tjbutton{width: 67%;height:30px;line-height:30px;background:#ff4d4e;font-size:14px;font-weight:normal;font-family:"microsoft yahei";text-align:center;color:#fff;border:0;display: block;overflow:hidden;border-radius:4px;-webkit-box-flex:1;outline: none;}
+.comment .cancel{width: 30%;height:30px;line-height:30px;background:#ccc;font-size:14px;font-weight:normal;font-family:"microsoft yahei";text-align:center;color:#fff;padding:0;margin: 0 0 0 3%;border:0;display:block;overflow:hidden;border-radius:4px;outline: none;}
+.comment .plbutton .yzm{width: 31%;height: 30px;line-height: 30px;border-radius:6px;outline: none;}
+.comment .plbutton img{width: 20%;height: 21px;line-height: 30px;position: relative;margin-right: 20px;}
+
+
+.game .game-z{padding-top: 8px; padding-left: 8px;}
+.game .game-z li{float: left;}
+.game .game-z li a{background: 0; padding: 3px 6px; border: 1px solid #eee; display: block; margin-right: 8px; margin-bottom: 8px; font-size: 14px; border-radius: 4px;}
+.game .game-z li .a1{color: #ce6808;}
+.game .game-z li .a2{color: #005fbf;}
+.game .game-z li .a3{color: #7f00ff;}
+.game .game-z li .a4{color: #f0f;}
+.game .game-z li .a5{color: #007f00;}
+.game .game-z li .a6{color: #f74242;}
+.game .game-z li .a7{color: #672fa3;}
+.game .game-z li .a8{color: #b73838;}
+.game .game-z li .a9{color: #509e03;}
+.game .game-z li .a10{color: #09bc92;}
+.game .game-z li .a11{color: #77770d;}

@@ -1,0 +1,18 @@
+
+
+/*中间内容*/
+.main{width:100%;box-sizing:border-box; overflow:hidden; height:auto;padding-right:15px;    background: #fff;}
+.main ul{width:100%;box-sizing:border-box; overflow:hidden; height:auto;}
+.main ul li{width:50%; height:auto; float:left;overflow:hidden; box-sizing:border-box;padding:10px 0 0 15px;}
+.main ul li .sa{width:100%; height:auto; display:block; overflow:hidden}
+.main ul li .sa img{width:100%; height:110px; display:block; overflow:hidden}
+.main ul li .sa span{display:block; overflow:hidden;width:100%;height:110px;}
+.main ul li .sa .p{width:100%; height:20px; line-height:20px; font-size:14px; color:#333; text-align:center; margin-top:4px;overflow:hidden;white-space:nowrap;display: block;}
+
+
+#Cbacktop{width:40px; height:40px; background:url(../images/index-icon.png) no-repeat 0 -143px; background-size:600px; display:none; overflow:hidden; position:fixed; right:10px; bottom:100px; z-index:500}
+
+.lookmore{margin: 0.5rem 0rem 1rem; padding: 0px 1rem;}
+.lookmore a{display: block; background: -webkit-gradient(linear,0% 0%, 100% 0%, from(#41aff7), to(#41aff7)); line-height: 2.6rem; height: 2.6rem; text-align: center; color: #fff; border-radius: .4rem;}
+.lookmore span{display: inline-block; position: relative;}
+.lookmore span:after{position: absolute; display: block; content: ""; right: -.7rem; top: .6rem; margin: auto; width: .4rem; height: .9rem; background: url(../images/arrow.png) no-repeat; background-size: 100% 100%; top: .85rem;}

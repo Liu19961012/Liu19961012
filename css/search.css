@@ -1,0 +1,35 @@
+
+
+
+/* 标题 */
+.title{width:100%;height:35px;line-height:35px;box-sizing:border-box;padding:0 10px;}
+.title p{width:100%;height:35px;border-bottom:3px solid #ccc;}
+.title span{display:block;height:35px;border-bottom:3px solid #41aff7;float:left;font-weight:bold;font-size:22px;}
+.title i{width:10px;height:38px;background:#fff;float:left;}
+.title a{float:right;font-size:18px;}
+
+
+.frame{height:auto;width:100%;padding:0 10px;box-sizing:border-box;overflow:hidden; margin-bottom:20px;}
+.frame ul{padding-bottom:10px;}
+.frame li{float:left;height:30px;line-height:30px;padding:0 10px;margin:10px 10px 0 0;font-size:14px;border:1px solid #ccc;border-radius:10px;}
+.frame li a{display:block;overflow:hidden;text-align:center;height:30px; line-height:30px; white-space:nowrap; text-overflow:ellipsis; padding:0 5px;}
+.frame li:nth-child(1) a,.frame li:nth-child(8) a{color:#4dba50}
+.frame li:nth-child(2) a,.frame li:nth-child(4) a{color:#4d90ba}
+.frame li:nth-child(3) a,.frame li:nth-child(11) a{color:#966de1}
+.frame li:nth-child(5) a,.frame li:nth-child(9) a{color:#ff9a98}
+.frame li:nth-child(6) a,.frame li:nth-child(12) a{color:#5bc3af}
+.frame li:nth-child(7) a,.frame li:nth-child(10) a{color:#ff7573}
+
+.last{height:auto;width:100%;padding:0 10px;box-sizing:border-box;overflow:hidden; margin-bottom:20px;margin: 10px 0; }
+.last a{display:block;float:left;width:25%;box-sizing:border-box;padding:0 5px;text-align:center;height:140px;}
+.last a img{width:70px;height:70px;display:block; margin:auto;}
+.last a p{width:100%;height:30px;line-height:30px; white-space: nowrap; overflow:hidden;}
+.last a span{width:60px;height:25px;display:block;margin:auto; line-height:25px;color:#41aff7;border:1px solid #41aff7;border-radius:5px;}
+.last>p{color:#000;height:30px;line-height:30px;margin:5px 0;width:auto;}
+
+.p{padding: 10px 10px; background: #fff;}
+.b{background: #fff;}
+
+.nun{margin: -10px 0 0 0;}
+
+

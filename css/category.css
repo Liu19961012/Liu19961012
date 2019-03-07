@@ -1,0 +1,44 @@
+
+
+#content{ width:100%; height:170px; margin:0; padding:0; display:block; overflow:hidden; position:relative; zoom:1;margin-top:1px;}
+#content img{ width:100%; height:99%; display:block; overflow:hidden;}
+#content h1{ width:auto; height:auto; line-height:22px; font-size: 15px; font-weight:normal; color:#fff; background:#41aff7; opacity:1; display:block; overflow:hidden; position:absolute; right:0; top:0; padding: 5px 8px;}
+#content #bg{ width:100%; height:57px; background:#000; opacity:0.7; display:block; overflow:hidden; position:absolute; left:0; bottom:0; z-index:10;}
+
+#m_content{ width:100%;height:40px; margin:0px; padding:0 10px; box-sizing:border-box; display:block; overflow:hidden; position:absolute; left:0; bottom:8px; z-index:20;color: #fff;padding-right: 90px;}
+#more{ width:80px; height:24px; line-height:24px; font-size:12px; font-weight:normal; color:#fff; background:#41aff7; text-align:center; display:block; overflow:hidden; position:absolute; right: 6px; bottom: 17px; z-index:20; margin: 0 0 0 0; border-radius:4px;}
+#m_content .scroll{ width:94%; height:auto; display:block; overflow:hidden; position:absolute; left:3%; top:0; padding:0 90px 0 0; box-sizing:border-box;word-break: break-all;}
+#m_content .scroll p{ width:100%; height:auto; line-height:20px; font-size:12px; font-weight:normal; color:#fff; display:block; overflow:hidden; text-indent:2em;}
+#m_content .scroll p strong{ font-size:12px; font-weight:normal; color:#fff;}
+
+
+/*弹出*/
+.m_alert{ width:90%; height:auto; max-height:70%; padding:18px; box-sizing:border-box; display:block; overflow:hidden; background:#fff; border-radius:4px; position:fixed; top:10%; left:5%;z-index:99999;}
+.m_alert p{ width:100%; height:auto; line-height:22px; font-size:14px; font-weight:normal; color:#333; display:block; overflow:hidden; text-indent:18px;}
+.m_alert p strong{ font-size:12px; font-weight:bold; }
+#m_close{ width:auto; height:auto; font-size:12px; font-weight:normal; background:#333; color:#fff; padding:2px 6px; display:block; overflow:hidden; position:fixed; right:5%; top:15%; z-index:10; border-radius:0 0 0 6px}
+#m_alertbg{ width:100%; height:100%; background:#000; opacity:0.6; display:block; overflow:hidden; position:fixed; left:0; top:0; z-index:99998;}
+
+/*中间_cxx*/
+.case .case-top .m-title{ font-size: 15px; font-weight:normal; color:#666; text-indent:10px; padding: 6px 0; border-left: 5px solid #41aff7;}
+.case .case-top .m-title span{ color:#1CCFAC; font-weight:bold; padding: 0 4px;}
+
+.g-soft-box{ padding:0 10px 0;}
+.g-soft-box b{ top:6px;}
+.case{ padding:0 10px;}
+.case .case-top{ width:100%; height:auto; display:block; overflow:hidden;}
+.case .case-top li{ width:100%; height:auto; display:block; overflow:hidden; background:#fff; padding:0 10px; margin:10px 0 0 0; box-sizing:border-box; position:relative; zoom:1}
+.case .case-top li i{ width:100%; height:1px; background:#eee; display:block; overflow:hidden;}
+.case .case-top li .left{ width:100%; height:auto; display:-webkit-box; overflow:hidden; padding:10px 86px 10px 0; box-sizing:border-box;}
+.case .case-top li .left img{ width:66px; height:66px; margin:0 10px 0 0; display:block; overflow:hidden; border-radius:14px;}
+.case .case-top li .left p{ width:auto; height:auto; display:block; overflow:hidden; -webkit-box-flex:1}
+.case .case-top li .left p .sname{ width:100%; height:auto; line-height:20px; font-size:15px; font-weight:normal; color:#333; margin:4px 0 0 0; display:block; overflow:hidden;}
+.case  .case-top li .left p b{ width:100%; height:auto; line-height:16px; font-size:12px; font-weight:normal; color:#A5A5A5; margin:6px 0 0 0; display:block; overflow:hidden;}
+.case .case-top li .xz{ width: 52px; height: 30px; line-height: 30px; font-size: 16px; font-weight:normal; color:#41aff7; text-align:center; border:1px solid #41aff7; border-radius:4px;background-size: 434px; display:block; overflow:hidden; position:absolute; right:10px; top:31px;}
+.case .case-top li .xz:active{ color:#fff; background:url(../images/home-icon.png) no-repeat -146px -128px #66d105; background-size:500px}
+.case .case-top .m-eq3{ margin:10px 0 0 0;}
+.case .case-top .m-eq3 i{ display:none}
+
+.title{width:100%; height:auto; display:block; overflow:hidden; background:#fff; padding:0 10px; margin:10px 0 0 0; box-sizing:border-box; position:relative; zoom:1; font-size: 15px; font-weight:normal; color:#666; text-indent:10px; padding: 6px 0; border-left: 5px solid #41aff7;}
+.title span{ width:auto; height:auto; position:absolute; right:10px; top:7px; font-size:12px; font-weight:normal; color:#888;}
+.list{width:100%; height:auto; background:#fff; padding:0 14px 10px 0; margin:10px 0 0 0; box-sizing:border-box; display:block; overflow:hidden}
